@@ -11,7 +11,7 @@ new_var="${var[0]}"
 new_var="${new_var/.meta/}"
 
 echo "$new_var"
-
+mkdir tflite
 python export_tflite_ssd_graph.py --pipeline_config_path conf_model/model_conf.config --trained_checkpoint_prefix "$new_var" --output_directory tflite --max_detections 25
 
 tflite_convert \
