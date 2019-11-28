@@ -1,4 +1,4 @@
-conda activate bayer1
+conda activate tensorflowlite
 
 python xml_to_csv.py
 
