@@ -63,9 +63,9 @@ When finished the model is necessary run the next command to save the model in t
 
 Command finished, you model it's in the paste "tflite"
 
-Now can you run the query of example, add the picture desired equal the line "image=CWD_PATH+'/test/cam_image45.jpg'" of code "example_predict_image_tflite.ipynb"
+Now can you run the query of example, add the picture desired equal the line "image=CWD_PATH+'/test/cam_image45.jpg'" of code "example_predict_image_tflite.ipynb".
 
-If you want to test without having to run a new model, download model weights from this link (https://drive.google.com/file/d/1OYzxCeyiti2vBhTNhCvtdi8cq6U3dbRz/view?usp=sharing), create a paste with name "tflite" and add the file to this folder.
+If you want to test without having to run a new model, download the model weights I made from this link (https://drive.google.com/file/d/1OYzxCeyiti2vBhTNhCvtdi8cq6U3dbRz/view?usp=sharing) on ​​this model I rode just 600 epochs more for script testing purposes, create a folder named "tflite" and add the file to this folder.
 
 Obs.: For run the example is necessary create a new enviromment in python with the tensorflow==1.15
 
