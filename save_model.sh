@@ -1,4 +1,4 @@
-conda activate bayer1
+conda activate tensorflowlite
 
 var=()
 for filename in conf_model/*.meta; do
