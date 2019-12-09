@@ -26,7 +26,7 @@ After of update the pip, you will go the clone, activate enviromment and install
 ```
 git clone https://github.com/valteresj2/Object-Detection-Simplified-With-Tensorflow-Lite.git
 cd Object-Detection-Simplified-With-Tensorflow-Lite
-pip install requeriments.txt
+pip install -r requeriments.txt
 ```
 
 Now you can clone the api model of tensorflow:
