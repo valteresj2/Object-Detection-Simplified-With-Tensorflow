@@ -41,6 +41,12 @@ protoc --python_out=. .\object_detection\protos\anchor_generator.proto .\object_
 
 python setup.py build
 python setup.py install
+
+
+cd slim
+python setup.py build
+python setup.py install
+cd ..
 ```
 
 Done all process of setup of api model tensorflow, you can add yours pictures of training and testing in the paste that if find on directory root (train, test), to this example i caught the pictures of example  of github of EdjeElectronics (https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10), where also i used some of steps of setup his, thank you EdjeElectronics!
